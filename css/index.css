@@ -13,9 +13,10 @@ body {
     --white-background-color: #ffffff;
 }
 
-div {
-    border-color: #f71004;
-    border: 0px, 0px, 10px, 0px;
+.caption-taem {
+    background-color: var(--white-background-color);
+    padding: 32px, 0px;
+    text-align: center;
 }
 
 .section-one {
@@ -118,6 +119,8 @@ div {
 
 .footer {
     background-color: var(--dark-color);
+    width: 1440px;
+    height: 312px;
 }
 
 .paragraf-botom {
@@ -196,6 +199,19 @@ div {
 
 .team {
     background-color: #F4F4FD;
+    width: 1440px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.card-set {
+    background-color: #F4F4FD;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding: 0;
+    list-style: none;
 }
 
 .list {
@@ -213,11 +229,18 @@ div {
 }
 
 .list-team {
-    background-color: #FFFFFF
+    background-color: #F4F4FD;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .team-job {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455
+}
+
+p.paragraf-botom {
+    width: 264px;
+    line-height: 24px;
 }
