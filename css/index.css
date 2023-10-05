@@ -13,6 +13,13 @@ body {
     --white-background-color: #ffffff;
 }
 
+header.header {
+    border-color: #f71004;
+    border: 0px, 0px, 10px, 0px;
+    width: 1440px;
+    height: 72px;
+}
+
 .section-one {
     background-color: #2E2F42;
 }
