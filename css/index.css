@@ -13,7 +13,7 @@ body {
     --white-background-color: #ffffff;
 }
 
-header.header {
+div.header {
     border-color: #f71004;
     border: 0px, 0px, 10px, 0px;
     width: 1440px;
