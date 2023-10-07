@@ -54,6 +54,10 @@ img {
     padding-bottom: 120px;
 }
 
+.section-third {
+    padding-bottom: 120px;
+}
+
 .section-description {
     display: flex;
     gap: 24px;
@@ -267,6 +271,19 @@ img {
     line-height: 1.11;
     font-size: 36px;
     color: #2E2F42;
+}
+
+.info-h2 {
+    margin-bottom: 72px;
+}
+
+.photo {
+    display: flex;
+    gap: 24px;
+}
+
+.photo-li {
+    width: calc((100%-48px)/3);
 }
 
 .studio {
