@@ -13,6 +13,10 @@ body {
     --white-background-color: #ffffff;
 }
 
+img {
+    display: block;
+}
+
 .caption-taem {
     background-color: var(--white-background-color);
     padding: 32px, 0px;
