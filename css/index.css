@@ -13,6 +13,11 @@ body {
     --white-background-color: #ffffff;
 }
 
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
 img {
     display: block;
 }
