@@ -25,6 +25,13 @@ img {
     display: flex;
 }
 
+.container {
+    width: 1158px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .caption-taem {
     background-color: var(--white-background-color);
     padding: 32px, 0px;
@@ -129,7 +136,7 @@ img {
     letter-spacing: 0.02em;
 }
 
-.container {
+.container-footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
