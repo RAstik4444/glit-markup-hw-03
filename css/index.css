@@ -17,6 +17,10 @@ img {
     display: block;
 }
 
+.headerr {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .caption-taem {
     background-color: var(--white-background-color);
     padding: 32px, 0px;
