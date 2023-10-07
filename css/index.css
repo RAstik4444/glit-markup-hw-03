@@ -49,6 +49,25 @@ img {
     padding-bottom: 188px;
 }
 
+.section-second {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-description {
+    display: flex;
+    gap: 24px;
+
+}
+
+.punkt-description {
+    width: calc((100%-72px)/4);
+}
+
+.descr-h3 {
+    margin-bottom: 8px;
+}
+
 .main-head {
     font-size: 56px;
     line-height: 1.07;
