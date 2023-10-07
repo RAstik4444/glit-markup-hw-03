@@ -106,6 +106,10 @@ img {
     list-style: none;
 }
 
+.lgo {
+    margin-right: 76px;
+}
+
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
