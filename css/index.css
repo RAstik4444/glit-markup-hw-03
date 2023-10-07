@@ -116,6 +116,11 @@ img {
 
 }
 
+.menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
