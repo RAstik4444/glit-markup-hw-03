@@ -57,6 +57,10 @@ img {
     color: #FFFFFF;
 }
 
+.head-h1 {
+    max-width: 496px;
+}
+
 .list-navigator {
     font-weight: 500;
     font-size: 16px;
@@ -69,6 +73,16 @@ img {
 .filter-list {
     color: #FFFFFF;
 
+}
+
+.btn-serv {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-order {
