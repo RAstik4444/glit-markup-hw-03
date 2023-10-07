@@ -21,6 +21,10 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.container-header {
+    display: flex;
+}
+
 .caption-taem {
     background-color: var(--white-background-color);
     padding: 32px, 0px;
