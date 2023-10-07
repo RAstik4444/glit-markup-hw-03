@@ -117,6 +117,11 @@ body {
     letter-spacing: 0.02em;
 }
 
+a.logo-link.link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer {
     background-color: var(--dark-color);
     width: 1440px;
