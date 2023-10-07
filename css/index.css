@@ -38,9 +38,7 @@ img {
 }
 
 .caption-taem {
-    background-color: var(--white-background-color);
-    padding: 32px, 0px;
-    text-align: center;
+    padding: 32px 16px 32px;
 }
 
 .section-one {
@@ -258,6 +256,11 @@ img {
     color: #2E2F42;
 }
 
+.team-h3 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .description-info {
     letter-spacing: 0.02em;
     line-height: 1.5;
@@ -293,6 +296,11 @@ img {
     color: var(--dark-color);
 }
 
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .team {
     background-color: #F4F4FD;
     width: 1440px;
@@ -321,7 +329,18 @@ ul.card-set {
     text-align: center;
     line-height: 1.11;
     font-size: 36px;
-    color: #2E2F42
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.our-team-ul {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-li {
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .list-team {
@@ -333,7 +352,8 @@ ul.card-set {
 .team-job {
     letter-spacing: 0.02em;
     line-height: 1.5;
-    color: #434455
+    color: #434455;
+    text-align: center;
 }
 
 p.paragraf-botom {
