@@ -117,7 +117,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-a.logo-link.link {
+.container {
     display: inline-block;
     margin-bottom: 16px;
 }
