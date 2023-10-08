@@ -11,6 +11,7 @@ body {
     --text-color: #434455;
     --light-color: #F4F4FD;
     --white-background-color: #ffffff;
+    --white-button-color: #e7e9fc;
 }
 
 .nav-header {
@@ -137,10 +138,24 @@ img {
     cursor: pointer;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.button-li {
+    padding: 12px 24px;
+    border: 1px solid var(--white-button-color);
+    border-radius: 4px;
+}
+
 .filter-button:hover,
 .filter-button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 .list-img {
