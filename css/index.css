@@ -162,6 +162,23 @@ img {
     list-style: none;
 }
 
+.portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-li {
+    width: calc((100% - 48px) / 3);
+}
+
+.kategories {
+    padding: 32px 16px;
+    border: 1px solid var(--white-button-color);
+    border-top: none;
+}
+
 .lgo {
     margin-right: 76px;
 }
@@ -264,6 +281,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .filter-p {
