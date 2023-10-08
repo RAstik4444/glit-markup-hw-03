@@ -93,7 +93,11 @@ img {
 
 .filter-list {
     color: #FFFFFF;
+}
 
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .btn-serv {
