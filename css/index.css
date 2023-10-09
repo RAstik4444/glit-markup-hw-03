@@ -61,7 +61,8 @@ img {
 }
 
 .caption-taem {
-    padding: 32px 16px 32px;
+    padding: 32px 0;
+    text-align: center;
 }
 
 .section-one {
@@ -363,28 +364,15 @@ h3 {
     color: var(--dark-color);
 }
 
-.section-four {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background-color: #F4F4FD;
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .team {
     background-color: #F4F4FD;
-    width: 1440px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 120px 0;
 }
 
 ul.card-set {
     background-color: #F4F4FD;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 10px;
     padding: 0;
     list-style: none;
 }
