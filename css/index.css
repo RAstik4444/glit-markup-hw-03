@@ -321,6 +321,7 @@ h3 {
     line-height: 1.2;
     font-size: 20px;
     color: #2E2F42;
+    text-align: center;
 }
 
 h3 {
@@ -369,7 +370,7 @@ h3 {
     padding: 120px 0;
 }
 
-ul.card-set {
+.card-set {
     background-color: #F4F4FD;
     display: flex;
     flex-wrap: wrap;
